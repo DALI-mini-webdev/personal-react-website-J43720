@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Map } from 'immutable';
-import FruitPosting from './FruitPosting';
 class FruitBoard extends Component {
  constructor(props) {
    super(props);

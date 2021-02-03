@@ -1,8 +1,8 @@
 import React from 'react';
-import img from './img/yellow flowers.png';
-import pic from './img/ladd library.JPG';
+import img from './img/yellow_flowers.png';
+import pic from './img/ladd_library.JPG';
 import './App.css';
-import Navbar from './components/Navbar/Navbar';
+import Navbar from './components/navbar_components/Navbar';
 
 
 function App() {
@@ -23,7 +23,6 @@ function App() {
  
  
   return(
-    
   
     <div className = "App">
       <Navbar />
@@ -77,12 +76,6 @@ function App() {
         <img src={pic} width="500" height="400" className = "second App-logo" alt="secondlogo"/>
         <p>And here's my favorite picture taken at Bates</p>
       </div>
-
-  
-        
-       
-       
-      
 
       </header>
     </div>
