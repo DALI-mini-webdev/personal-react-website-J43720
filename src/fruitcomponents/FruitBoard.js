@@ -37,18 +37,6 @@ class FruitBoard extends Component {
  
  
  render() {
-     const AllFruit = this.state.Fruit.entrySeq().map(
-         ([id, Fruit]) => {
-             return(
-                <FruitPosting
-                    Name = {Fruit.name}
-                    Color = {Fruit.color}
-                    FruitURL = {Fruit.image}
-                    key={id}
-                />
-             );
-         }
-     );
     
    return (
      <div>
