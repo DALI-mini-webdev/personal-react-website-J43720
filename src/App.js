@@ -2,6 +2,8 @@ import React from 'react';
 import img from './img/yellow flowers.png';
 import pic from './img/ladd library.JPG';
 import './App.css';
+import Navbar from './components/Navbar/Navbar';
+
 
 function App() {
   const name = "Jasmine"
@@ -24,6 +26,7 @@ function App() {
     
   
     <div className = "App">
+      <Navbar />
       <h1>HELLO</h1>
       <h3>my name is {name}</h3>
       <header className="App-header">
@@ -88,3 +91,4 @@ function App() {
 
  
 export default App;
+
