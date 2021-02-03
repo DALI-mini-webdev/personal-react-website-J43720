@@ -26,7 +26,7 @@ function App() {
     
   
     <div className = "App">
-      <Navbar />
+      <Navbar /> 
       <h1>HELLO</h1>
       <h3>my name is {name}</h3>
       <header className="App-header">
