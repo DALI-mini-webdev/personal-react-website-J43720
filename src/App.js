@@ -3,6 +3,7 @@ import img from './img/yellow flowers.png';
 import pic from './img/ladd library.JPG';
 import './App.css';
 import Navbar from './components/Navbar/Navbar';
+import FruitBoard from './components/FruitBoard';
 
 
 function App() {
