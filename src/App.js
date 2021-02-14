@@ -4,6 +4,8 @@ import pic from './img/ladd library.JPG';
 import './App.css';
 import Navbar from './components/Navbar/Navbar';
 import FruitBoard from './components/FruitBoard';
+import API from './components/api';
+
 
 
 function App() {
@@ -15,6 +17,7 @@ function App() {
   const buttonFunction = () => {
     console.log("button was clicked");
   }
+
   const favoritefoodsList = ["pizza, fried rice, french fires, Sour Patch Kids"];
   const favoritefoodsMap = favoritefoodsList.map((favoritefood) => {
     return(
@@ -28,6 +31,7 @@ function App() {
   
     <div className = "App">
       <Navbar /> 
+      <FruitBoard/>
       <h1>HELLO</h1>
       <h3>my name is {name}</h3>
       <header className="App-header">
@@ -66,6 +70,7 @@ function App() {
             rel="noopener noreferrer"
           >images
           </a> 
+          <API/>
         </div>  
       </div> 
       <div className = "image">
@@ -78,6 +83,10 @@ function App() {
         <img src={pic} width="500" height="400" className = "second App-logo" alt="secondlogo"/>
         <p>And here's my favorite picture taken at Bates</p>
       </div>
+      
+  
+     
+
 
   
         
