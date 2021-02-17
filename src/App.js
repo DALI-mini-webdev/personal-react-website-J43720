@@ -5,10 +5,13 @@ import './App.css';
 import Navbar from './components/Navbar/Navbar';
 import FruitBoard from './components/FruitBoard';
 import API from './components/api';
-
+import firebase from './firebase/index';
+import ToDoBoard from './components/ToDoBoard';
 
 
 function App() {
+  console.log(firebase);
+  console.log(firebase.db);
   const name = "Jasmine"
   const onChangeFunction = (event) => {
     console.log(event.target.value);
@@ -31,7 +34,8 @@ function App() {
   
     <div className = "App">
       <Navbar /> 
-      <FruitBoard/>
+      {/* <FruitBoard/> */}
+      <ToDoBoard/>
       <h1>HELLO</h1>
       <h3>my name is {name}</h3>
       <header className="App-header">
